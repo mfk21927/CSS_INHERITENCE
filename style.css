@@ -1,0 +1,29 @@
+/* specified rule
+*{
+    color: tomato;
+    font-style: italic;
+    font-family: cursive;
+    background-color: rgb(218, 221, 206);
+}
+p{
+    color: blue !important;
+}
+/* last rule */
+/* p{
+    color: orange;
+} */ 
+
+/* APPLYING INHERITENCE RULE */
+body{
+    color: tomato;
+    font-style: italic;
+    font-family: cursive;
+    background-color: rgb(218, 221, 206);
+    border: 1px solid black;
+    padding: 20px;
+
+}
+.first{
+    border: inherit;
+    padding: inherit;
+}
