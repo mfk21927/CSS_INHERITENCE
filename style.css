@@ -1,21 +1,46 @@
-/* specified rule
-*{
-    color: tomato;
-    font-style: italic;
-    font-family: cursive;
-    background-color: rgb(218, 221, 206);
-}
-p{
-    color: blue !important;
-}
-/* last rule */
-/* p{
-    color: orange;
+/* * {
+    font-family: Arial, Verdana, sans-serif;}
+    h1 {
+    font-family: "Courier New", monospace;} 
+    i {
+    color: green;} 
+    i {
+    color: red;} 
+    b {
+    color: pink;} 
+    p b {
+    color: blue !important;} 
+    p b {
+    color: violet;}
+    p#intro {
+    font-size: 100%;}
+    p {
+    font-size: 75%;} */
+    
+    /* Last Rule */
+    /* p{
+        columns: yellow;
+    }
+    p{
+        color: blueviolet;
+    } */
+
+    /* Specified Rule */
+    /* *{
+        color: brown;
+    }
+    h1{
+        color: orangered;
+    }
+    /* importtant */
+/* #imp+i{
+    color: purple !important;
 } */ 
+
 
 /* APPLYING INHERITENCE RULE */
 body{
-    color: tomato;
+    color: purple;
     font-style: italic;
     font-family: cursive;
     background-color: rgb(218, 221, 206);
@@ -23,7 +48,8 @@ body{
     padding: 20px;
 
 }
-.first{
+
+.page{
     border: inherit;
     padding: inherit;
 }
